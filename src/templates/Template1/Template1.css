@@ -1,0 +1,113 @@
+/* --------- Base Layout --------- */
+.w-800 {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+    background: linear-gradient(135deg, #ffffff, #f8fafc);
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    font-family: "Inter", "Segoe UI", sans-serif;
+    color: #1e293b;
+    line-height: 1.7;
+}
+
+/* --------- Company & Invoice Header --------- */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #e2e8f0;
+    padding-bottom: 15px;
+}
+
+.company-title {
+    font-size: 26px;
+    font-weight: 800;
+    color: #0f172a;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.invoice-title {
+    font-size: 40px;
+    font-weight: 900;
+    color: #2563eb; /* Elegant Blue */
+    text-shadow: 1px 1px 3px rgba(37, 99, 235, 0.2);
+}
+
+/* --------- Billing Section --------- */
+.billing-section {
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+.billing-title {
+    color: #2563eb;
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: 2px solid #2563eb;
+    padding-bottom: 6px;
+    margin-bottom: 8px;
+}
+
+/* --------- Table Styling --------- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+table thead {
+    background: linear-gradient(to right, #2563eb, #3b82f6);
+    color: #fff;
+}
+
+table th, table td {
+    padding: 14px 16px;
+    font-size: 14px;
+    text-align: left;
+}
+
+table th {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+table tr:nth-child(even) {
+    background: #f1f5f9;
+}
+
+table tr:hover {
+    background: #e0f2fe;
+    transition: 0.3s ease;
+}
+
+/* --------- Totals Section --------- */
+.total-row {
+    font-weight: 800;
+    font-size: 16px;
+    background: #e0f2fe;
+    border-top: 2px solid #2563eb;
+}
+
+.total-amount {
+    color: #2563eb;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+/* --------- Footer --------- */
+.footer {
+    margin-top: 50px;
+    font-size: 13px;
+    color: #64748b;
+    text-align: center;
+    border-top: 1px dashed #cbd5e1;
+    padding-top: 15px;
+    letter-spacing: 0.5px;
+}
